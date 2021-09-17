@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* Header start */
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    padding: 15px 0px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6-left{
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-color: #672169;
+}
+.col-6-right{
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-color: red;
+}
+.col-6-right img{
+    width: 100%;
+    float: left;
+}
+.col-6-left h3{
+    width: auto;
+    color: #F7DC4F;
+    font-size: 18px;
+    padding: 20px 0px 0px 27px;
+}
+.col-6-left .yellow{
+    color: #F7DC4F;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 150px;
+}
+.col-6-left h1{
+    font-size: 50px;
+    color: white;
+    line-height: 52px;
+    text-align: center;
+}
+.col-6-left p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.menu{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 0px 0px 30px;
+}
+.menu li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+/* Header end */    
+.fb{
+    width: 200px;
+    font-size: 100px;
+    position: fixed;
+    top: 25%;
+    right: -150px;
+    transition: 1s;
+}
+.fb:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.insta{
+    width: 210px;
+    font-size: 100px;
+    position: fixed;
+    top: 30%;
+    right: -150px;
+    transition: 1s;
+}
+.insta:hover{
+    right: -14px;
+    cursor: pointer;
+}
+.twitter{
+    width: 200px;
+    font-size: 100px;
+    position: fixed;
+    top: 35.5%;
+    right: -150px;
+    transition: 1s;
+}
+.twitter:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.youtube{
+    width: 200px;
+    font-size: 100px;
+    position: fixed;
+    top: 41%;
+    right: -150px;
+    transition: 1s;
+}
+.youtube:hover{
+    right: -1px;
+    cursor: pointer;
+}
+/* about me */
+.about-section {
+    width: 100%;
+    float: left;
+    padding: 32px 0px;
+    text-align: center;
+}
+.custom{
+    background-color: #F0F0F0;
+}
+.about-section h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 60px;
+    color: #00555F;
+}
+.about-section p {
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 10px 250px;
+    color: #000;
+    margin-bottom: 20px;
+}
+button {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background: yellow;
+    color: #00555F;
+    border: 2px solid yellow;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+/* about me end */
+/* showreel start */
+.showreel-section{
+    width: 100%;
+    float: left;
+}
+.showreel-section h1 {
+    font-size: 80px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #00555F;
+    margin: 50px 0px 80px 0px;
+    text-align: center;
+}
+.showreel-section img{
+    width: 100%;
+}
+/* showreel end */
+.photos-tittle-section h1{
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+    margin: 45px 0px 100px 0px;
+    color: #00555F;
+}
+/* photos section */
+.col-4-top{
+    width: 100%;
+    float: left;
+    margin: 20px 0px 20px 0px;
+}
+.col-4-top .top-img-1{
+    width: 32.33%;
+    height: auto;
+}
+.col-4-top .top-img-2{
+    width: 32.33%;
+    height: auto;
+}
+.col-4-top .top-img-3{
+    width: 32.33%;
+    height: auto;
+}
+.col-4-down{
+    width: 100%;
+    float: left;
+    margin: -23px 0px 50px 0px;
+}
+.col-4-down .down-img-1{
+    width: 32.33%;
+    height: auto;
+}
+.col-4-down .down-img-2{
+    width: 32.33%;
+    height: auto;
+}
+.col-4-down .down-img-3{
+    width: 32.33%;
+    height: auto;
+}
+/* photos section end */
+/* contact section start */
+.contact .col-6-left{
+    width: 50%;
+    float: left;
+}
+.contact .col-6-left img{
+    width: 100%;
+    height: auto;
+}
+.contact .col-6-right{
+    background-color: #672169;
+}
+.contact .col-6-right .yellow{
+    color: #F7DC4F;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 65px;
+}
+.contact .col-6-right h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 22px 44px 0px 0px;
+}
+.contact .col-6-right p{
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+    margin: -1px 43px 0px 195px;
+}
+.contact .col-6-right span{
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/* contact section end */
+/* footer section start */
+.footer-section {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background:#672169;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-section p{
+    color: white;
+}
+.footer-section a{
+    font-size: 16px ;
+    text-transform: uppercase;
+    color: #EC9536;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
